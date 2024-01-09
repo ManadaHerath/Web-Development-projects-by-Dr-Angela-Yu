@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+}
+h2{
+
+
+}
+
+h3{
+
+    font-size: 1.5rem;
+} 
+p{
+    font-size: 1.1rem;
+    color: #777;
+}
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 6.5%;
+
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 5%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: thinner;
+    font-size: 2rem;
+    color: white;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color:rgb(237, 181, 181);
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    transform: rotate(20deg);
+    right: 25%;
+    width: 20%;
+    position: absolute;
+}
+@media (max-width: 1000px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        top: 15%;
+        transform: rotate(0deg);
+    }
+}
+
+/* Feature Section */
+
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+    
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-image{
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height:1.5;
+}
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.price-text{
+    font-size: 2.5rem;
+    line-height:1.5;
+}
+.card{
+    margin: 3%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Action Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: aliceblue;
+    text-align: center;
+    padding: 7% 15%;
+}
+.action-text{
+    font-size: 3.5rem;
+}
+
+#footer{
+
+    background-color: white;
+    color: gray;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}
+.footer-icon{
+    margin: 20px 10px;
+}
